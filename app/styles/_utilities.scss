@@ -1,0 +1,9 @@
+.vertical-center {
+  top: 50%;
+  @include transform(translateY(-50%));
+  position: relative;
+}
+
+.no-padding {
+  padding: 0;
+}

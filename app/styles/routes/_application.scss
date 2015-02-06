@@ -1,0 +1,48 @@
+#application {
+  @media #{$medium-up} {
+    text-align: center;
+  }
+
+  nav {
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    width: $header-footer-height;
+
+    .item {
+      height: $nav-item-height;
+      cursor: pointer;
+
+      &:hover {
+        .circle {
+          background-color: $dark-grey;
+        }
+      }
+
+      .circle {
+        @include transition(background-color $duration-mid, ease-in-out);
+        background-color: gainsboro;
+        width: $nav-item-height / 4;
+        height: $nav-item-height / 4;
+        border-radius: $nav-item-height / 8;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  header, footer {
+    height: $header-footer-height;
+    width: 100%;
+    background: $white;
+    position: fixed;
+    z-index: 1;
+  }
+
+  header {
+
+  }
+
+  footer {
+    bottom: 0;
+  }
+}

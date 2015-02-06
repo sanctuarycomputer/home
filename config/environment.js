@@ -3,11 +3,14 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'santuary-computer',
+    podModulePrefix: 'santuary-computer/pods',
+    usePodsByDefault: true,
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
+        'ember-htmlbars': true
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
       }

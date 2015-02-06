@@ -1,0 +1,15 @@
+#application
+
+  nav.vertical-center
+    .item
+      .circle.vertical-center
+
+  header
+    .small-12.columns.vertical-center
+      h3.brown-regular Sanctuary Computer
+
+  = outlet
+
+  footer
+    .small-12.columns.vertical-center
+      h4.austincyr-semibold A lean technology house in NYC.
