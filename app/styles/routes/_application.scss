@@ -1,11 +1,24 @@
 #application {
-  @media #{$medium-up} {
-    text-align: center;
+  @include transition(background-color $duration-long ease-in-out $duration-long, overflow $duration-long ease-in-out $duration-long);
+  background-color: $light-grey;
+  text-align: center;
+
+  &.loaded {
+    background-color: $white;
+
+    nav {
+      @include transition(right $duration-long ease-in-out 1s);
+      right: 0;
+    }
   }
 
   nav {
+    right: -60px;
+    display: none;
+    @media #{$large-up} {
+      display: block;
+    }
     position: fixed;
-    right: 0;
     z-index: 1;
     width: $header-footer-height;
 
@@ -39,10 +52,11 @@
   }
 
   header {
-
+    @include delay(600ms);
   }
 
   footer {
+    @include delay(800ms);
     bottom: 0;
   }
 }

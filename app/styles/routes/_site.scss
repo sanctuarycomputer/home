@@ -1,29 +1,46 @@
 #site {
-  @media #{$medium-up} {
+  @media #{$large-up} {
     padding: 0 $header-footer-height;
   }
 
-  section {
-    padding: $header-footer-height $header-footer-height $header-footer-height 0;
-
-    @media #{$medium-up} {
-      padding: $header-footer-height 0 $header-footer-height 0;
-    }
-
+  .section {
+    @extend .row;
+    padding: $header-footer-height 0 $header-footer-height 0;
     background-color: $light-grey;
 
     .blurb {
-      margin: $standard-bumper*3 0;
-      h3 {
-        line-height: $standard-bumper * 2;
+      margin: 0 0 $standard-bumper*2 0;
+      @media #{$medium-up} {
+        margin: $standard-bumper*2 0 $standard-bumper*2 0;
+      }
+      .ui-text {
+        line-height: $standard-bumper*1.65;
+        @media #{$medium-up} {
+          line-height: $standard-bumper*2;
+        }
       }
     }
 
-    &#welcome, &#contact {
+    &.welcome, &.contact {
       height: 100vh;
+      img#logo {
+        max-width: 80px;
+        @media #{$medium-up} {
+          max-width: 100px;
+        }
+        @media #{$large-up} {
+          max-width: 140px;
+        }
+      }
     }
 
-    &#work {
+    &.work {
+      padding: 0 0 0 0;
+
+      @media #{$large-up} {
+        padding: $header-footer-height 0 $header-footer-height 0;
+      }
+
       .item {
 
         &:hover {
@@ -58,7 +75,7 @@
       }
     }
 
-    &#friends {
+    &.friends {
       .item {
         @include transition(opacity $duration-mid, ease-in-out);
         padding: $standard-bumper/2;

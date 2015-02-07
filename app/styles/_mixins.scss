@@ -4,6 +4,12 @@
   }
 }
 
+@mixin delay($value: 0s) {
+  @each $prefix in '-webkit-', '-moz-', '-ms-', '-o-', '' {
+    #{$prefix}animation-delay: $value;
+  }
+}
+
 @mixin transition($declarations...) {
   @each $prefix in '-webkit-', '-moz-', '-ms-', '-o-', '' {
     #{$prefix}transition: $declarations;
@@ -142,7 +148,7 @@
 }
 
 @mixin font-face($style-name, $file, $family, $category:"") {
-  $filepath: "../fonts/" + $family + "/" + $file;
+  $filepath: "../assets/fonts/" + $family + "/" + $file;
   @font-face {
     font-family: #{$style-name};
     src: url($filepath + ".eot");

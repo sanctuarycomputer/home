@@ -1,15 +1,16 @@
-#application
+#application class=global.appLoaded:loaded
 
   nav.vertical-center
-    .item
-      .circle.vertical-center
+    each sectionName in global.sectionNames
+      .item{action 'scrollToWaypoint' sectionName target="view"}
+        .circle.vertical-center
 
-  header
+  header.animated.fadeInDown
     .small-12.columns.vertical-center
       h3.brown-regular Sanctuary Computer
 
   = outlet
 
-  footer
+  footer.animated.fadeInUp
     .small-12.columns.vertical-center
-      h4.austincyr-semibold A lean technology house in NYC.
+      h4.austincyr-semibold= global.currentSectionTagline

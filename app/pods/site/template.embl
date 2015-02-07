@@ -1,80 +1,80 @@
 #site
 
-  section#welcome.row
+  = waypoint action="sectionDidChange" sectionName="welcome" classNames="welcome section"
     .small-12.large-2.large-offset-5.columns.text-center.vertical-center
-      img src="./images/logo.png"
+      img#logo.animated.bounceIn src="./assets/images/logo.png"
 
-  section#work.row
+  = waypoint action="sectionDidChange" sectionName="work" classNames="work section"
     .blurb.small-12.medium-10.medium-offset-1.columns
-      h3.brown-light We build cohesive web experiences and ecommerce systems with technologies like Spree, Ember and Ruby on Rails.
+      h4.ui-text.brown-light We build cohesive web experiences and ecommerce systems with technologies like Spree, Ember and Ruby on Rails.
 
     .small-12
       .row.collapse
 
-        .item.small-6.large-3.columns
-          img src="./images/work/calendar-camp.jpg"
+        .item.small-6.medium-3.columns
+          img src="./assets/images/work/calendar-camp.jpg"
           .title.text-center
             h5.brown-regular.vertical-center Calendar Camp
           a href="#"
 
-        .item.small-6.large-3.columns
-          img src="./images/work/silo-arts.jpg"
+        .item.small-6.medium-3.columns
+          img src="./assets/images/work/silo-arts.jpg"
           .title.text-center
             h5.brown-regular.vertical-center Mainframe Group
           a href="#"
 
-        .item.small-6.large-3.columns
-          img src="./images/work/calendar-camp.jpg"
+        .item.small-6.medium-3.columns
+          img src="./assets/images/work/calendar-camp.jpg"
           .title.text-center
             h5.brown-regular.vertical-center The Working Pair
           a href="#"
 
-        .item.small-6.large-3.columns
-          img src="./images/work/silo-arts.jpg"
+        .item.small-6.medium-3.columns
+          img src="./assets/images/work/silo-arts.jpg"
           .title.text-center
             h5.brown-regular.vertical-center Silo Arts & Records
           a href="#"
 
-  section#friends.row
+  = waypoint action="sectionDidChange" sectionName="friends" classNames="friends section"
     .blurb.small-12.medium-10.medium-offset-1.columns
-      h3.brown-light We like to work with our friends.
+      h4.ui-text.brown-light We like to work with our friends.
 
     .small-12.columns
       .row.collapse
-        .item.small-6.large-2.columns
-          img src="./images/logo.png"
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/logo.png"
           a href="#"
 
-        .item.small-6.large-2.columns
-          img src="./images/logo.png"
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/logo.png"
           a href="#"
 
-        .item.small-6.large-2.columns
-          img src="./images/logo.png"
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/logo.png"
           a href="#"
 
-        .item.small-6.large-2.columns
-          img src="./images/logo.png"
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/logo.png"
           a href="#"
 
-        .item.small-6.large-2.columns
-          img src="./images/logo.png"
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/logo.png"
           a href="#"
 
-        .item.small-6.large-2.columns
-          img src="./images/logo.png"
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/logo.png"
           a href="#"
 
-        .item.small-6.large-2.columns
-          img src="./images/logo.png"
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/logo.png"
           a href="#"
 
-        .item.small-6.large-2.columns
-          img src="./images/logo.png"
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/logo.png"
           a href="#"
 
-  / Full Height Panel with Vertically Centered Content
-  section#contact.row
+  = waypoint action="sectionDidChange" sectionName="contact" classNames="contact section"
     .small-12.columns.vertical-center
-      h1.austincyr-fat Get in Touch.
-      h3.brown-light hello@sanctuary.computer
+      h1.austincyr-fat.animated.fadeInDown Get in Touch.
+      a href="mailto:hello@sanctuary.computer" target="_blank"
+        h3.brown-light hello@sanctuary.computer
