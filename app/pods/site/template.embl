@@ -15,25 +15,25 @@
           img src="./assets/images/work/calendar-camp.jpg"
           .title.text-center
             h5.brown-regular.vertical-center Calendar Camp
-          a href="#"
+          a href="http://www.calendarcamp.co/" target="_blank"
 
         .item.small-6.medium-3.columns
-          img src="./assets/images/work/silo-arts.jpg"
+          img src="./assets/images/work/mainframe.jpg"
           .title.text-center
             h5.brown-regular.vertical-center Mainframe Group
-          a href="#"
+          a href="http://mainframegroup.co/" target="_blank"
 
         .item.small-6.medium-3.columns
-          img src="./assets/images/work/calendar-camp.jpg"
+          img src="./assets/images/work/the-working-pair.jpg"
           .title.text-center
             h5.brown-regular.vertical-center The Working Pair
-          a href="#"
+          a href="http://theworkingpair.com/" target="_blank"
 
         .item.small-6.medium-3.columns
           img src="./assets/images/work/silo-arts.jpg"
           .title.text-center
             h5.brown-regular.vertical-center Silo Arts & Records
-          a href="#"
+          a href="http://siloarts.net" target="_blank"
 
   = waypoint action="sectionDidChange" sectionName="friends" classNames="friends section"
     .blurb.small-12.medium-10.medium-offset-1.columns
@@ -41,37 +41,39 @@
 
     .small-12.columns
       .row.collapse
-        .item.small-6.medium-3.large-2.columns
-          img src="./assets/images/logo.png"
-          a href="#"
 
         .item.small-6.medium-3.large-2.columns
-          img src="./assets/images/logo.png"
-          a href="#"
+          img src="./assets/images/clients/ginlane-logo.png"
+          a href="#" target="_blank"
 
         .item.small-6.medium-3.large-2.columns
-          img src="./assets/images/logo.png"
-          a href="#"
+          img src="./assets/images/clients/human-logo.png"
+          a href="http://human-nyc.com/" target="_blank"
 
         .item.small-6.medium-3.large-2.columns
-          img src="./assets/images/logo.png"
-          a href="#"
+          img src="./assets/images/clients/silo-logo.png"
+          a href="http://siloarts.net" target="_blank"
 
         .item.small-6.medium-3.large-2.columns
-          img src="./assets/images/logo.png"
-          a href="#"
+          img src="./assets/images/clients/face-logo.png"
+          a href="#" target="_blank"
 
         .item.small-6.medium-3.large-2.columns
-          img src="./assets/images/logo.png"
-          a href="#"
+          img src="./assets/images/clients/mainframe-logo.png"
+          a href="http://mainframegroup.co/" target="_blank"
 
         .item.small-6.medium-3.large-2.columns
-          img src="./assets/images/logo.png"
-          a href="#"
+          img src="./assets/images/clients/calendarcamp-logo.png"
+          a href="http://www.calendarcamp.co/" target="_blank"
 
         .item.small-6.medium-3.large-2.columns
-          img src="./assets/images/logo.png"
-          a href="#"
+          img src="./assets/images/clients/cantora-logo.png"
+          a href="http://playlab.org/" target="_blank"
+
+        .item.small-6.medium-3.large-2.columns
+          img src="./assets/images/clients/playlab-logo.png"
+          a href="http://playlab.org/" target="_blank"
+
 
   = waypoint action="sectionDidChange" sectionName="contact" classNames="contact section"
     .small-12.columns.vertical-center
