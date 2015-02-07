@@ -80,3 +80,10 @@
       h1.austincyr-fat.animated.fadeInDown Get in Touch.
       a href="mailto:hello@sanctuary.computer" target="_blank"
         h3.brown-light hello@sanctuary.computer
+
+      #socials
+        a href="https://www.facebook.com/sanctuarycomputer" target="_blank"
+          = fa-icon "facebook-official" size=2
+
+        a href="https://github.com/sanctuarycomputer" target="_blank"
+          = fa-icon "github" size=2

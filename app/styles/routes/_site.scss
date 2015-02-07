@@ -110,5 +110,19 @@
         }
       }
     }
+
+    &.contact {
+      #socials {
+        margin-top: $column-gutter /2;
+        a {
+          @include transition(opacity $duration-mid, ease-in-out);
+          padding: 0 $column-gutter /4;
+          color: $black;
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
   }
 }
