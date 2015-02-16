@@ -4,12 +4,16 @@ export default Ember.Object.extend({
   appLoaded: false,
   currentSectionName: null,
 
-  sectionNames: Ember.A(['welcome', 'work', 'friends', 'contact']),
+  sectionNames: Ember.A(['welcome', 'about', 'work', 'services', 'friends', 'contact']),
 
   currentSectionTagline: function() {
     var currentSectionName = this.get('currentSectionName');
 
     switch(currentSectionName) {
+      case "about":
+        return "About Us";
+      case "services":
+        return "Our Services";
       case "contact":
         return "Contact Details";
       case "work":

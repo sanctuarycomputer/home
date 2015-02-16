@@ -3,9 +3,26 @@
   = waypoint action="sectionDidChange" sectionName="welcome" classNames="welcome section"
     .small-12.large-2.large-offset-5.columns.text-center.vertical-center
       img#logo.animated.bounceIn src="./assets/images/logo.png"
+    #scroll-down.animated.fadeInUp
+      h6.brown-regular Scroll Down
+
+  = waypoint action="sectionDidChange" sectionName="about" classNames="about section"
+    .small-12.columns.vertical-center
+      h1.austincyr-fat.animated.fadeInDown.padding-bottom About Us
+      .row
+        .small-12.large-6.columns
+          a href="https://www.google.ca/maps/place/110+Meserole+Ave,+Brooklyn,+NY+11222,+USA/@40.7267726,-73.9534369,17z/data=!4m2!3m1!1s0x89c25946be7a61f9:0x3cb342e6ba01d1fd" target="_blank"
+            img.animated.fadeIn.padding-bottom src="./assets/images/map.jpg"
+        .small-12.large-6.columns.small-only-text-center.medium-only-text-center.text-left
+          h4.brown-light.padding-bottom Hi there!  We're a NYC based technology house, dedicated to creating slick, high quality websites and mobile apps.  We're known for producing big results on short timelines.  We're able to do this by keep our team small, and dedicating that team to a single project at a time.
+          h4.brown-light.padding-bottom Have something in mind?  We're super friendly!
+          a href="mailto:hello@sanctuary.computer" target="_blank"
+            h3.brown-regular Drop us a line!
+
 
   = waypoint action="sectionDidChange" sectionName="work" classNames="work section"
-    .blurb.small-12.medium-10.medium-offset-1.columns
+    h1.austincyr-fat.animated.fadeInDown.padding-bottom Our Work
+    .small-12.medium-10.medium-offset-1.columns.padding-bottom
       h4.ui-text.brown-light We build cohesive web experiences and ecommerce systems with technologies like Spree, Ember and Ruby on Rails.
 
     .small-12
@@ -35,42 +52,60 @@
             h5.brown-regular.vertical-center Silo Arts & Records
           a href="http://siloarts.net" target="_blank"
 
+  = waypoint action="sectionDidChange" sectionName="services" classNames="services section"
+    .small-12.columns
+      h1.austincyr-fat.animated.fadeInDown.padding-bottom Our Services
+      .row
+        .small-12.large-4.columns
+          img.animated.bounceIn.padding-bottom src="./assets/images/pencil.png"
+          h3.brown-regular.padding-bottom Web Design
+          h4.brown-light.padding-bottom This ain't our first rodeo.  To us, bad UX stands out like a sore thumb, and yes, we're know that your content is king.
+        .small-12.large-4.columns
+          img.animated.bounceIn.padding-bottom src="./assets/images/code.png"
+          h3.brown-regular.padding-bottom Development
+          h4.brown-light.padding-bottom We're expert coders.  We believe in shared solutions - and love reusing code!  That's why we're an Ember / Rails shop.
+        .small-12.large-4.columns
+          img.animated.bounceIn.padding-bottom src="./assets/images/man.png"
+          h3.brown-regular.padding-bottom Consulting
+          h4.brown-light.padding-bottom Want to get your team up to speed with Ember or Rails quick?  We also do consulting, and pair programming.  Catch us at the NYC Ember meetups!
+
   = waypoint action="sectionDidChange" sectionName="friends" classNames="friends section"
-    .blurb.small-12.medium-10.medium-offset-1.columns
+    h1.austincyr-fat.animated.fadeInDown.padding-bottom Clients
+    .small-12.medium-10.medium-offset-1.columns.padding-bottom
       h4.ui-text.brown-light We like to work with our friends.
 
     .small-12.columns
       .row.collapse
 
-        .item.small-6.medium-3.large-2.columns
+        .item.small-6.medium-4.large-2.columns
           img src="./assets/images/clients/ginlane-logo.png"
           a href="#" target="_blank"
 
-        .item.small-6.medium-3.large-2.columns
+        .item.small-6.medium-4.large-2.columns
           img src="./assets/images/clients/human-logo.png"
           a href="http://human-nyc.com/" target="_blank"
 
-        .item.small-6.medium-3.large-2.columns
+        .item.small-6.medium-4.large-2.columns
           img src="./assets/images/clients/silo-logo.png"
           a href="http://siloarts.net" target="_blank"
 
-        .item.small-6.medium-3.large-2.columns
+        .item.small-6.medium-4.large-2.columns
           img src="./assets/images/clients/face-logo.png"
-          a href="#" target="_blank"
+          a href="http://face.human-nyc.com" target="_blank"
 
-        .item.small-6.medium-3.large-2.columns
+        .item.small-6.medium-4.large-2.columns
           img src="./assets/images/clients/mainframe-logo.png"
           a href="http://mainframegroup.co/" target="_blank"
 
-        .item.small-6.medium-3.large-2.columns
+        .item.small-6.medium-4.large-2.columns
           img src="./assets/images/clients/calendarcamp-logo.png"
           a href="http://www.calendarcamp.co/" target="_blank"
 
-        .item.small-6.medium-3.large-2.columns
+        .item.small-6.medium-4.large-2.columns
           img src="./assets/images/clients/cantora-logo.png"
           a href="http://playlab.org/" target="_blank"
 
-        .item.small-6.medium-3.large-2.columns
+        .item.small-6.medium-4.large-2.columns
           img src="./assets/images/clients/playlab-logo.png"
           a href="http://playlab.org/" target="_blank"
 

@@ -8,6 +8,13 @@
     padding: $header-footer-height 0 $header-footer-height 0;
     background-color: $light-grey;
 
+    h4 {
+      line-height: 2.25rem;
+      @media #{$medium-up} {
+        line-height: 3rem;
+      }
+    }
+
     .blurb {
       margin: 0 0 $standard-bumper*2 0;
       @media #{$medium-up} {
@@ -21,7 +28,17 @@
       }
     }
 
-    &.welcome, &.contact {
+    &.welcome {
+      #scroll-down {
+        @include delay(2000ms);
+        position: absolute;
+        width: 100%;
+        bottom: 120px;
+        left: 0px;
+      }
+    }
+
+    &.welcome, &.contact, &.about {
       height: 100vh;
       img#logo {
         max-width: 80px;
@@ -35,12 +52,6 @@
     }
 
     &.work {
-      padding: 0 0 0 0;
-
-      @media #{$large-up} {
-        padding: $header-footer-height 0 $header-footer-height 0;
-      }
-
       .item {
 
         &:hover {
@@ -68,7 +79,7 @@
           @include transition(opacity $duration-mid, ease-in-out);
 
           background-color: $white;
-          padding: $standard-bumper/2;
+          padding-bottom: $standard-bumper/2;
           position: absolute;
           top: 0;
           width: 100%;
