@@ -19,7 +19,7 @@ export default Ember.Object.extend({
       case "work":
         return "Work";
       case "friends":
-        return "Friends & Clientelle";
+        return "Friends & Clientele";
       default:
         return "A lean technology house in NYC.";
     }
