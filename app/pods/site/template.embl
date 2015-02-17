@@ -14,7 +14,7 @@
           a href="https://www.google.ca/maps/place/110+Meserole+Ave,+Brooklyn,+NY+11222,+USA/@40.7267726,-73.9534369,17z/data=!4m2!3m1!1s0x89c25946be7a61f9:0x3cb342e6ba01d1fd" target="_blank"
             img.animated.fadeIn.padding-bottom src="./assets/images/map.jpg"
         .small-12.large-6.columns.small-only-text-center.medium-only-text-center.text-left
-          h4.brown-light.padding-bottom Hi there!  We're a NYC based technology house, dedicated to creating slick, high quality websites and mobile apps.  We're known for producing big results on short timelines.  We're able to do this by keep our team small, and dedicating that team to a single project at a time.
+          h4.brown-light.padding-bottom Hi there!  We're a NYC based technology house, dedicated to creating slick, high quality websites and mobile apps.  We're known for producing big results on short timelines.  We're able to do this by keeping our team small, and dedicating that team to a single project at a time.
           h4.brown-light.padding-bottom Have something in mind?  We're super friendly!
           a href="mailto:hello@sanctuary.computer" target="_blank"
             h3.brown-regular Drop us a line!
