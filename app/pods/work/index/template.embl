@@ -1,0 +1,11 @@
+hr
+h3.brown-regular.text-center.large-text-left Our Work
+hr
+br
+h4.brown-light We build cohesive web experiences and ecommerce systems with technologies like Spree, Ember and Ruby on Rails.
+
+br
+br
+br
+= link-to .button.expand 'contact'
+  h5.brown-regular.ui-text Email us, we're super friendly!

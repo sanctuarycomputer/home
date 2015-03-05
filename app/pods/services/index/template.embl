@@ -1,0 +1,26 @@
+hr
+h3.brown-regular.text-center.large-text-left Our Clients
+hr
+.row
+  .small-6.columns.bottom-margin-small
+    = img src="./assets/images/clients/playlab-logo.png"
+  .small-6.columns.bottom-margin-small
+    = img src="./assets/images/clients/cantora-logo.png"
+  .small-6.columns.bottom-margin-small
+    = img src="./assets/images/clients/mainframe-logo.png"
+  .small-6.columns.bottom-margin-small
+    = img src="./assets/images/clients/ginlane-logo.png"
+  .small-6.columns.bottom-margin-small
+    = img src="./assets/images/clients/face-logo.png"
+  .small-6.columns.bottom-margin-small
+    = img src="./assets/images/clients/human-logo.png"
+  .small-6.columns.bottom-margin-small
+    = img src="./assets/images/clients/silo-logo.png"
+  .small-6.columns.bottom-margin-small
+    = img src="./assets/images/clients/calendarcamp-logo.png"
+
+br
+br
+br
+= link-to .button.expand 'contact'
+  h5.brown-regular.ui-text Email us, we're super friendly!

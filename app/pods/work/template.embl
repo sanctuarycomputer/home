@@ -1,0 +1,19 @@
+= background-image src="./assets/images/computers.jpg"
+.content.row
+  .small-12.large-6.columns.text-center.large-text-left
+    = link-to 'work.index'
+      h1.title.brown-regular Work
+    = link-to 'work.face-design'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text FACE Design & Fabrication
+    = link-to 'work.calendar-camp'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text Calendar Camp
+    = link-to 'work.mainframe-group'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text Mainframe Group
+    = link-to 'work.working-pair'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text The Working Pair
+  .small-12.large-6.columns
+    = outlet

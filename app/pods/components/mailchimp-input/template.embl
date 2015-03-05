@@ -1,0 +1,1 @@
+= input viewName="inputView" type="email" placeholder=placeholder value=emailString

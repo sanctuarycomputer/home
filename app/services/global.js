@@ -3,6 +3,7 @@ import Ember from 'ember';
 export default Ember.Object.extend({
   appLoaded: false,
   currentSectionName: null,
+  navActive: false,
 
   sectionNames: Ember.A(['welcome', 'about', 'work', 'services', 'friends', 'contact']),
 

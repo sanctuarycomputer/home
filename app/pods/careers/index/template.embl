@@ -1,0 +1,14 @@
+hr
+h3.brown-regular.text-center.large-text-left Join the Sanctuary
+hr
+br
+h4.brown-light Come work with us.  We're always keen to talk to new folks!
+br
+h4.brown-light Sanctuary Computer aims to be a shelter for creative people.  We go on group excursions to museums and art galleries, we work when we feel like it, and enforce a minimum holiday policy.  It's bliss.
+br
+h4.brown-light If you can't find a position that suits, but you'd like to chat anyway, please reach out!
+br
+br
+br
+= link-to .button.expand 'contact'
+  h5.brown-regular.ui-text Email us, we're super friendly!

@@ -9,6 +9,7 @@ var app = new EmberApp({
 });
 
 app.import('bower_components/animate.css/animate.min.css');
+app.import('vendor/javascripts/ember-image-views.js');
 
 // Use `app.import` to add additional libraries to the generated
 // output files.

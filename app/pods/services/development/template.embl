@@ -1,0 +1,11 @@
+hr
+= img src="./assets/images/code.png"
+hr
+h3.brown-regular.text-center Development
+hr
+h4.brown-light We're expert coders. We believe in shared solutions - and love creating custom code to bend the internet for our clients! That's why we're an Ember / Rails shop.
+br
+br
+br
+= link-to .button.expand 'contact'
+  h5.brown-regular.ui-text Get in Touch!

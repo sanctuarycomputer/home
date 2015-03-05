@@ -1,0 +1,17 @@
+= background-image src="./assets/images/white-desk.jpg"
+.content.row
+  .small-12.large-6.columns
+    h1.title.brown-regular.text-center.large-text-left About
+  .small-12.large-6.columns
+    hr
+    h3.brown-regular.text-center.large-text-left Hi there!
+    hr
+    br
+    h4.brown-light We're a NYC based technology house, dedicated to creating slick, high quality websites and mobile apps. We're known for producing big results on short timelines. We're able to do this by hiring the best and brightest in New York City, and dedicating that team to a single project at a time.
+    br
+    h4.brown-light Have something in mind?
+    br
+    br
+    br
+    = link-to .button.expand 'contact'
+      h5.brown-regular.ui-text Get in Touch!

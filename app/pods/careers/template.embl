@@ -1,0 +1,16 @@
+= background-image src="./assets/images/planners.jpg"
+.content.row
+  .small-12.large-6.columns.text-center.large-text-left
+    = link-to 'careers.index'
+      h1.title.brown-regular Careers
+    = link-to 'careers.jnr-designer'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text Junior Designer
+    = link-to 'careers.product-manager'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text Product Manager
+    = link-to 'careers.systems-engineer'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text Systems Engineer
+  .small-12.large-6.columns
+    = outlet

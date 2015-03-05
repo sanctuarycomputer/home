@@ -1,0 +1,4 @@
+= background-image src="./assets/images/startup.jpg"
+.content.row
+  .small-12.columns
+    h1.title.brown-regular We build slick websites and apps in New York City.

@@ -1,62 +1,197 @@
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.7;
+}
+
 #application {
-  @include transition(background-color $duration-long ease-in-out $duration-long, overflow $duration-long ease-in-out $duration-long);
-  background-color: $light-grey;
-  text-align: center;
-
+  @include transition(opacity $duration-long ease-in-out $duration-long, overflow $duration-long ease-in-out $duration-long);
+  opacity: 0;
   &.loaded {
-    background-color: $white;
+    opacity: 1;
+  }
 
-    nav {
-      @include transition(right $duration-long ease-in-out 1s);
-      right: 0;
+
+  header {
+    @include delay(600ms);
+    @include transition(background-color $duration-mid ease-in-out);
+    height: $header-footer-height;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+    a {
+      .ui-text {
+        color: $white;
+      }
+    }
+
+    &.active {
+      background: $white;
+      @include box-shadow();
+
+      #menu-button {
+        i {
+          color: #000;
+        }
+      }
+
+      a {
+        .ui-text {
+          color: #000;
+        }
+      }
+    }
+
+    #menu-button {
+      cursor: pointer;
+      position: absolute;
+      left: 40px;
+      top: 27px;
+      z-index: 9;
+      i {
+        color: $white;
+      }
+
+      @media #{$large-up} {
+        display: none;
+      }
     }
   }
 
   nav {
-    right: -60px;
-    display: none;
-    @media #{$large-up} {
-      display: block;
-    }
+    z-index: 8;
+    @include transition(left $duration-mid ease-in-out, opacity $duration-mid ease-in-out);
     position: fixed;
-    z-index: 1;
-    width: $header-footer-height;
+    top: 100px;
+    left: -200px;
+    opacity: 0;
+    a {
+      background-color: $white;
+      padding: 1rem;
+    }
 
-    .item {
-      height: $nav-item-height;
-      cursor: pointer;
-
-      &:hover {
-        .circle {
-          background-color: $dark-grey;
-        }
-      }
-
-      .circle {
-        @include transition(background-color $duration-mid, ease-in-out);
-        background-color: gainsboro;
-        width: $nav-item-height / 4;
-        height: $nav-item-height / 4;
-        border-radius: $nav-item-height / 8;
-        margin: 0 auto;
-      }
+    &.active {
+      opacity: 1;
+      left: 40px;
     }
   }
 
-  header, footer {
-    height: $header-footer-height;
-    width: 100%;
-    background: $white;
-    position: fixed;
-    z-index: 1;
-  }
+  .inline-links {
+    a {
+      display: inline-block;
+      padding: 0 $column-gutter/6 0 $column-gutter/6;
 
-  header {
-    @include delay(600ms);
+      &:first-of-type {
+        padding: 0 $column-gutter/6 0 0;
+      }
+
+      &:last-of-type {
+        padding: 0 0 0 $column-gutter/6;
+      }
+    }
   }
 
   footer {
-    @include delay(800ms);
-    bottom: 0;
+    margin-bottom: $column-gutter;
+
   }
+
+  hr {
+    border-width: 3px;
+    border: solid black;
+  }
+
+  // footer {
+  //   @include delay(800ms);
+  //   bottom: 0;
+  // }
+
+
+  // Move somewhere better
+
+  a {
+    display: block;
+    i {
+      margin-right: 20px;
+      color: black;
+    }
+    .ui-text {
+      @include transition(border-color $duration-mid ease-in-out, color $duration-mid ease-in-out);
+      border-bottom: 3px solid transparent;
+      display: inline-block;
+    }
+    .title {
+      @include transition(color $duration-mid ease-in-out);
+    }
+
+    &:hover {
+      .title {
+        color: blue;
+      }
+    }
+
+    &:hover, &.active {
+      .ui-text {
+        color: blue;
+        border-bottom: 3px solid #000;
+      }
+    }
+  }
+
+  input {
+    border: none;
+    box-shadow: none;
+    background-color: #E8E8EE;
+    padding: 1rem;
+    height: auto;
+    font-size: 2rem;
+    @extend .brown-regular;
+  }
+
+  .bottom-margin-small {
+    margin-bottom: $column-gutter / 4;
+  }
+
+  .bottom-margin {
+    margin-bottom: $column-gutter;
+  }
+
+  .button {
+    @include transition(background-color $duration-mid, ease-in-out);
+    background-color: #000;
+    .ui-text {
+      @include transition(color $duration-mid, ease-in-out);
+      color: #fff;
+    }
+    &:hover {
+      background-color: #fff;
+      .ui-text {
+        color: blue;
+      }
+    }
+  }
+
+  .background-image {
+    @include transition(opacity $duration-mid, ease-in-out);
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 1;
+    height: 80vh;
+    margin-bottom: $column-gutter;
+
+    &.loading {
+      opacity: 0;
+    }
+  }
+
+  .content {
+    margin-bottom: $column-gutter;
+    .title {
+      font-size: 4rem;
+      @media #{$large-up} {
+        font-size: 6rem;
+      }
+    }
+  }
+
 }

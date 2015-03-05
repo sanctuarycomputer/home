@@ -1,16 +1,66 @@
 #application class=global.appLoaded:loaded
 
-  nav.vertical-center
-    each sectionName in global.sectionNames
-      .item{action 'scrollToWaypoint' sectionName target="view"}
-        .circle.vertical-center
+  header.animated.fadeInDown class=global.active
+    #menu-button{action 'toggleSideNav'}
+      = fa-icon "bars"
+    .small-offset-1.small-10.large-offset-0.large-5.columns.vertical-center.text-center.large-text-left
+      = link-to 'home'
+        h3.brown-regular.ui-text Sanctuary Computer
+    .inline-links.large-7.columns.vertical-center.text-center.large-text-right.show-for-large-up
+      = link-to 'about'
+        h6.brown-regular.ui-text About
+      = link-to 'careers'
+        h6.brown-regular.ui-text Careers
+      = link-to 'work'
+        h6.brown-regular.ui-text Work
+      = link-to 'services'
+        h6.brown-regular.ui-text Client Services
+      = link-to 'contact'
+        h6.brown-regular.ui-text Contact
 
-  header.animated.fadeInDown
-    .small-12.columns.vertical-center
-      h3.brown-regular Sanctuary Computer
+  nav.hide-for-large-up class=global.sideNavActive:active
+    = link-to 'about'
+      h2.brown-regular.ui-text About
+    = link-to 'careers'
+      h2.brown-regular.ui-text Careers
+    = link-to 'work'
+      h2.brown-regular.ui-text Work
+    = link-to 'services'
+      h2.brown-regular.ui-text Client Services
+    = link-to 'contact'
+      h2.brown-regular.ui-text Contact
+
+  = waypoint action="navToggle" offset="-20px"
 
   = outlet
 
-  footer.animated.fadeInUp
-    .small-12.columns.vertical-center
-      h4.austincyr-semibold= global.currentSectionTagline
+  footer.row
+    .small-12.columns
+      hr
+      .row.bottom-margin
+        .small-12.large-8.columns.bottom-margin.text-center.large-text-left
+          h5.brown-regular.bottom-margin-small A technology house in NYC.
+          h5.brown-light 110 Meserole Ave
+          h5.brown-light Suite #2
+          h5.brown-light Brooklyn, NY
+          h5.brown-light 11222
+
+        .small-12.large-4.columns.text-center.large-text-right
+          h5.brown-regular.bottom-margin-small Sign up for our mailing list.
+          = mailchimp-input listUrl="//computer.us10.list-manage.com/subscribe/post?u=5587ea50b1548b1efa41cfee9&amp;id=54fb822805"
+
+      .row
+        .inline-links.small-12.large-8.columns.text-center.large-text-left.bottom-margin
+          = link-to 'about'
+            h6.brown-regular.ui-text About
+          = link-to 'careers'
+            h6.brown-regular.ui-text Careers
+          = link-to 'work'
+            h6.brown-regular.ui-text Work
+          = link-to 'services'
+            h6.brown-regular.ui-text Client Services
+          = link-to 'contact'
+            h6.brown-regular.ui-text Contact
+
+        .small-12.large-4.columns.text-center.large-text-right
+          h6.brown-light &copy; 2015 Sanctuary Computer Inc

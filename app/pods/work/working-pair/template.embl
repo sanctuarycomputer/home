@@ -1,0 +1,11 @@
+hr
+= img src="./assets/images/work/display-twp.jpg"
+hr
+h3.brown-regular.text-center The Working Pair
+hr
+h4.brown-light We built a site for FACE Design + Fabrication, a Brooklyn based Architecture and steel working company.  The site was designed by PlayLab, with the intention of giving FACE a place where they could put their architectural components on display.
+br
+br
+br
+a.button.expand href="http://www.theworkingpair.com" target="_blank"
+  h5.brown-regular.ui-text Visit The Working Pair

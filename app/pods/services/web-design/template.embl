@@ -1,0 +1,13 @@
+hr
+= img src="./assets/images/pencil.png"
+hr
+h3.brown-regular.text-center Web Design
+hr
+h4.brown-light To us, bad UX stands out like a sore thumb.  We craft web presence to focus on what matters most - your content.
+br
+h4.brown-light We consider design the most important part of the process, and take immense care to ensure your pixels are perfect.
+br
+br
+br
+= link-to .button.expand 'contact'
+  h5.brown-regular.ui-text Get in Touch!

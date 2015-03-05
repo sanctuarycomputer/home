@@ -1,0 +1,11 @@
+hr
+= img src="./assets/images/man.png"
+hr
+h3.brown-regular.text-center Consulting
+hr
+h4.brown-light Want to get your team up to speed with Ember or Rails quick? We also do consulting, and pair programming. Catch us at the NYC Ember meetups!
+br
+br
+br
+= link-to .button.expand 'contact'
+  h5.brown-regular.ui-text Get in Touch!

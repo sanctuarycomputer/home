@@ -1,0 +1,16 @@
+= background-image src="./assets/images/services.jpg"
+.content.row
+  .small-12.large-6.columns.text-center.large-text-left
+    = link-to 'services.index'
+      h1.title.brown-regular Services
+    = link-to 'services.web-design'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text Web Design
+    = link-to 'services.development'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text Development
+    = link-to 'services.consulting'
+      = fa-icon 'hand-o-right'
+      h4.brown-light.bottom-margin-small.ui-text Consulting
+  .small-12.large-6.columns
+    = outlet
