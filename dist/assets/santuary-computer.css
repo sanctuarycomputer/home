@@ -4124,11 +4124,11 @@ th.hide-for-touch {
     display: table-cell !important; }
  }
 
-/* line 1, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/global */
+/* line 1, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/global */
 body {
   background-color: #fff; }
 
-/* line 5, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/global */
+/* line 5, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/global */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   color: #000000; }
@@ -4138,7 +4138,7 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../assets/fonts/brown/brown-light.eot");
   src: url("../assets/fonts/brown/brown-light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/brown/brown-light.woff") format("woff"), url("../assets/fonts/brown/brown-light.ttf") format("truetype"), url("../assets/fonts/brown/brown-light.svg#brown-light") format("svg"); }
 
-/* line 158, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/mixins */
+/* line 158, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/mixins */
 .brown-light {
   font-family: brown-light;
   font-weight: normal; }
@@ -4148,7 +4148,7 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../assets/fonts/brown/brown-regular.eot");
   src: url("../assets/fonts/brown/brown-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/brown/brown-regular.woff") format("woff"), url("../assets/fonts/brown/brown-regular.ttf") format("truetype"), url("../assets/fonts/brown/brown-regular.svg#brown-regular") format("svg"); }
 
-/* line 158, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/mixins */
+/* line 158, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/mixins */
 .brown-regular, #application input {
   font-family: brown-regular;
   font-weight: normal; }
@@ -4158,7 +4158,7 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../assets/fonts/austin-cyr/austincyr-semibold.eot");
   src: url("../assets/fonts/austin-cyr/austincyr-semibold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/austin-cyr/austincyr-semibold.woff") format("woff"), url("../assets/fonts/austin-cyr/austincyr-semibold.ttf") format("truetype"), url("../assets/fonts/austin-cyr/austincyr-semibold.svg#austincyr-semibold") format("svg"); }
 
-/* line 158, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/mixins */
+/* line 158, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/mixins */
 .austincyr-semibold {
   font-family: austincyr-semibold;
   font-weight: normal; }
@@ -4168,12 +4168,12 @@ h1, h2, h3, h4, h5, h6 {
   src: url("../assets/fonts/austin-cyr/austincyr-fat.eot");
   src: url("../assets/fonts/austin-cyr/austincyr-fat.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/austin-cyr/austincyr-fat.woff") format("woff"), url("../assets/fonts/austin-cyr/austincyr-fat.ttf") format("truetype"), url("../assets/fonts/austin-cyr/austincyr-fat.svg#austincyr-fat") format("svg"); }
 
-/* line 158, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/mixins */
+/* line 158, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/mixins */
 .austincyr-fat {
   font-family: austincyr-fat;
   font-weight: normal; }
 
-/* line 1, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/utilities */
+/* line 1, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/utilities */
 .vertical-center {
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -4183,19 +4183,19 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-50%);
   position: relative; }
 
-/* line 7, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/utilities */
+/* line 7, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/utilities */
 .no-padding {
   padding: 0; }
 
-/* line 11, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/utilities */
+/* line 11, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/utilities */
 .padding-bottom {
   padding-bottom: 1.875rem; }
 
-/* line 1, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+/* line 1, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.7; }
 
-/* line 5, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+/* line 5, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
 #application {
   -webkit-transition: opacity 600ms ease-in-out 600ms, overflow 600ms ease-in-out 600ms;
   -moz-transition: opacity 600ms ease-in-out 600ms, overflow 600ms ease-in-out 600ms;
@@ -4203,10 +4203,10 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: opacity 600ms ease-in-out 600ms, overflow 600ms ease-in-out 600ms;
   transition: opacity 600ms ease-in-out 600ms, overflow 600ms ease-in-out 600ms;
   opacity: 0; }
-  /* line 8, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 8, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application.loaded {
     opacity: 1; }
-  /* line 13, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 13, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application header {
     -webkit-animation-delay: 600ms;
     -moz-animation-delay: 600ms;
@@ -4223,35 +4223,35 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
     z-index: 1;
     top: 0; }
-    /* line 23, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 23, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application header a .ui-text {
       color: #fff; }
-    /* line 28, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 28, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application header.active {
       background: #fff;
       -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
       -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); }
-      /* line 33, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+      /* line 33, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
       #application header.active #menu-button i {
         color: #000; }
-      /* line 39, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+      /* line 39, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
       #application header.active a .ui-text {
         color: #000; }
-    /* line 45, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 45, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application header #menu-button {
       cursor: pointer;
       position: absolute;
       left: 40px;
       top: 27px;
       z-index: 9; }
-      /* line 51, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+      /* line 51, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
       #application header #menu-button i {
         color: #fff; }
       @media only screen and (min-width:50.063em) {
         #application header #menu-button {
           display: none; } }
-  /* line 61, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 61, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application nav {
     z-index: 8;
     -webkit-transition: left 400ms ease-in-out, opacity 400ms ease-in-out;
@@ -4263,39 +4263,39 @@ h1, h2, h3, h4, h5, h6 {
     top: 100px;
     left: -200px;
     opacity: 0; }
-    /* line 68, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 68, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application nav a {
       background-color: #fff;
       padding: 1rem; }
-    /* line 73, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 73, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application nav.active {
       opacity: 1;
       left: 40px; }
-  /* line 80, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 80, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application .inline-links a {
     display: inline-block;
     padding: 0 0.625rem 0 0.625rem; }
-    /* line 84, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 84, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application .inline-links a:first-of-type {
       padding: 0 0.625rem 0 0; }
-    /* line 88, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 88, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application .inline-links a:last-of-type {
       padding: 0 0 0 0.625rem; }
-  /* line 94, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 94, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application footer {
     margin-bottom: 3.75rem; }
-  /* line 99, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 99, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application hr {
     border-width: 3px;
     border: solid black; }
-  /* line 112, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 112, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application a {
     display: block; }
-    /* line 114, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 114, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application a i {
       margin-right: 20px;
       color: black; }
-    /* line 118, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 118, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application a .ui-text {
       -webkit-transition: border-color 400ms ease-in-out, color 400ms ease-in-out;
       -moz-transition: border-color 400ms ease-in-out, color 400ms ease-in-out;
@@ -4304,21 +4304,21 @@ h1, h2, h3, h4, h5, h6 {
       transition: border-color 400ms ease-in-out, color 400ms ease-in-out;
       border-bottom: 3px solid transparent;
       display: inline-block; }
-    /* line 123, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 123, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application a .title {
       -webkit-transition: color 400ms ease-in-out;
       -moz-transition: color 400ms ease-in-out;
       -ms-transition: color 400ms ease-in-out;
       -o-transition: color 400ms ease-in-out;
       transition: color 400ms ease-in-out; }
-    /* line 128, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 128, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application a:hover .title {
       color: blue; }
-    /* line 134, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 134, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application a:hover .ui-text, #application a.active .ui-text {
       color: blue;
       border-bottom: 3px solid #000; }
-  /* line 141, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 141, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application input {
     border: none;
     box-shadow: none;
@@ -4326,13 +4326,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1rem;
     height: auto;
     font-size: 2rem; }
-  /* line 151, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 151, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application .bottom-margin-small {
     margin-bottom: 0.9375rem; }
-  /* line 155, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 155, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application .bottom-margin {
     margin-bottom: 3.75rem; }
-  /* line 159, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 159, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application .button {
     -webkit-transition: background-color 400ms, ease-in-out;
     -moz-transition: background-color 400ms, ease-in-out;
@@ -4340,7 +4340,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: background-color 400ms, ease-in-out;
     transition: background-color 400ms, ease-in-out;
     background-color: #000; }
-    /* line 162, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 162, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application .button .ui-text {
       -webkit-transition: color 400ms, ease-in-out;
       -moz-transition: color 400ms, ease-in-out;
@@ -4348,13 +4348,13 @@ h1, h2, h3, h4, h5, h6 {
       -o-transition: color 400ms, ease-in-out;
       transition: color 400ms, ease-in-out;
       color: #fff; }
-    /* line 166, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 166, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application .button:hover {
       background-color: #fff; }
-      /* line 168, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+      /* line 168, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
       #application .button:hover .ui-text {
         color: blue; }
-  /* line 174, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 174, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application .background-image {
     -webkit-transition: opacity 400ms, ease-in-out;
     -moz-transition: opacity 400ms, ease-in-out;
@@ -4366,13 +4366,13 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
     height: 80vh;
     margin-bottom: 3.75rem; }
-    /* line 182, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 182, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application .background-image.loading {
       opacity: 0; }
-  /* line 187, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+  /* line 187, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
   #application .content {
     margin-bottom: 3.75rem; }
-    /* line 189, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/application */
+    /* line 189, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/application */
     #application .content .title {
       font-size: 4rem; }
       @media only screen and (min-width:50.063em) {
@@ -4382,29 +4382,29 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (min-width:50.063em) {
   #site {
     padding: 0 80px; } }
-/* line 11, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+/* line 11, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
 #site .section {
   padding: 80px 0 80px 0;
   background-color: #efeee8; }
-  /* line 16, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 16, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section h4 {
     line-height: 2.25rem; }
     @media only screen and (min-width:40.063em) {
       #site .section h4 {
         line-height: 3rem; } }
-  /* line 23, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 23, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section .blurb {
     margin: 0 0 3.75rem 0; }
     @media only screen and (min-width:40.063em) {
       #site .section .blurb {
         margin: 3.75rem 0 3.75rem 0; } }
-    /* line 28, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+    /* line 28, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
     #site .section .blurb .ui-text {
       line-height: 3.09375rem; }
       @media only screen and (min-width:40.063em) {
         #site .section .blurb .ui-text {
           line-height: 3.75rem; } }
-  /* line 37, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 37, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section.welcome #scroll-down {
     -webkit-animation-delay: 2000ms;
     -moz-animation-delay: 2000ms;
@@ -4415,10 +4415,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     bottom: 120px;
     left: 0px; }
-  /* line 46, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 46, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section.welcome, #site .section.contact, #site .section.about {
     height: 100vh; }
-    /* line 48, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+    /* line 48, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
     #site .section.welcome img#logo, #site .section.contact img#logo, #site .section.about img#logo {
       max-width: 80px; }
       @media only screen and (min-width:40.063em) {
@@ -4427,27 +4427,27 @@ h1, h2, h3, h4, h5, h6 {
       @media only screen and (min-width:50.063em) {
         #site .section.welcome img#logo, #site .section.contact img#logo, #site .section.about img#logo {
           max-width: 140px; } }
-  /* line 63, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 63, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section.work .item:hover .title {
     opacity: 0.85; }
-    /* line 65, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+    /* line 65, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
     #site .section.work .item:hover .title h5 {
       -webkit-transform: translateY(0%);
       -moz-transform: translateY(0%);
       -ms-transform: translateY(0%);
       -o-transform: translateY(0%);
       transform: translateY(0%); }
-  /* line 71, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 71, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section.work .item a {
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     position: absolute; }
-  /* line 79, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 79, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section.work .item img {
     width: 100%; }
-  /* line 83, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 83, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section.work .item .title {
     -webkit-transition: opacity 400ms, ease-in-out;
     -moz-transition: opacity 400ms, ease-in-out;
@@ -4461,7 +4461,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     opacity: 0; }
-    /* line 94, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+    /* line 94, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
     #site .section.work .item .title h5 {
       -webkit-transition: transform 400ms, ease-in-out;
       -moz-transition: transform 400ms, ease-in-out;
@@ -4476,7 +4476,7 @@ h1, h2, h3, h4, h5, h6 {
       @media only screen and (min-width:50.063em) {
         #site .section.work .item .title h5 {
           font-size: 1.25rem; } }
-  /* line 106, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 106, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section.friends .item {
     -webkit-transition: opacity 400ms, ease-in-out;
     -moz-transition: opacity 400ms, ease-in-out;
@@ -4485,24 +4485,24 @@ h1, h2, h3, h4, h5, h6 {
     transition: opacity 400ms, ease-in-out;
     padding: 0.9375rem;
     opacity: 0.4; }
-    /* line 111, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+    /* line 111, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
     #site .section.friends .item:hover {
       opacity: 1; }
-    /* line 115, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+    /* line 115, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
     #site .section.friends .item a {
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
       position: absolute; }
-    /* line 123, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+    /* line 123, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
     #site .section.friends .item img {
       width: 100%;
       padding: 1.875rem; }
-  /* line 131, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+  /* line 131, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
   #site .section.contact #socials {
     margin-top: 1.875rem; }
-    /* line 133, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+    /* line 133, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
     #site .section.contact #socials a {
       -webkit-transition: opacity 400ms, ease-in-out;
       -moz-transition: opacity 400ms, ease-in-out;
@@ -4511,7 +4511,7 @@ h1, h2, h3, h4, h5, h6 {
       transition: opacity 400ms, ease-in-out;
       padding: 0 0.9375rem;
       color: #333333; }
-      /* line 137, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-oUDQbjsL.tmp/app/styles/routes/site */
+      /* line 137, /Users/hhff/dev/SC/home/tmp/tree_merger-tmp_dest_dir-1MzdWfTn.tmp/app/styles/routes/site */
       #site .section.contact #socials a:hover {
         opacity: 0.8; }
 

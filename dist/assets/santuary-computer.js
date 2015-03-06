@@ -2082,7 +2082,7 @@ catch(err) {
 if (runningTests) {
   require("santuary-computer/tests/test-helper");
 } else {
-  require("santuary-computer/app")["default"].create({"name":"santuary-computer","version":"0.0.0.3f7308ce"});
+  require("santuary-computer/app")["default"].create({"name":"santuary-computer","version":"0.0.0.195eb7b2"});
 }
 
 /* jshint ignore:end */
