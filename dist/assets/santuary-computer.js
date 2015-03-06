@@ -455,7 +455,7 @@ define('santuary-computer/pods/careers/jnr-designer/template', ['exports'], func
     
 
 
-    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">Junior Designer</h3><hr /><h4 class=\"brown-light\">Looking for somewhere to start your career?  Sanctuary Computer takes great to to nurture young talent.  We believe that if you give someone freedom, they'll do their best work.</h4><br /><h3 class=\"brown-regular\">Skills</h3><h4 class=\"brown-light\">- Adobe Creative Suite</h4><h4 class=\"brown-light\">- Sketch</h4><h4 class=\"brown-light\">- Wireframing</h4><h4 class=\"brown-light\">- Graphic Design</h4><h4 class=\"brown-light\">- UI / UX</h4><br /><h3 class=\"brown-regular\">Perks</h3><h4 class=\"brown-light\">- Competitive Salary</h4><h4 class=\"brown-light\">- Countless Excursions</h4><h4 class=\"brown-light\">- All the gear you need</h4><h4 class=\"brown-light\">- 80 / 20 Time</h4><h4 class=\"brown-light\">- No Vacation Limit</h4><h4 class=\"brown-light\">- Enforced Minimum Vacation</h4><br /><br /><br /><a href=\"mailto:hello@sanctuarycomputer.com\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Apply for this Job</h5></a>");
+    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">Junior Designer</h3><hr /><h4 class=\"brown-light\">Looking for somewhere to start your career?  Sanctuary Computer takes great care to to nurture young talent.  We believe that if you give someone freedom, they'll do their best work.</h4><br /><h3 class=\"brown-regular\">Skills</h3><h4 class=\"brown-light\">- Adobe Creative Suite</h4><h4 class=\"brown-light\">- Sketch</h4><h4 class=\"brown-light\">- Wireframing</h4><h4 class=\"brown-light\">- Graphic Design</h4><h4 class=\"brown-light\">- UI / UX</h4><br /><h3 class=\"brown-regular\">Perks</h3><h4 class=\"brown-light\">- Competitive Salary</h4><h4 class=\"brown-light\">- Countless Excursions</h4><h4 class=\"brown-light\">- All the gear you need</h4><h4 class=\"brown-light\">- 80 / 20 Time</h4><h4 class=\"brown-light\">- No Vacation Limit</h4><h4 class=\"brown-light\">- Enforced Minimum Vacation</h4><br /><br /><br /><a href=\"mailto:hello@sanctuarycomputer.com\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Apply for this Job</h5></a>");
     
   });
 
@@ -477,7 +477,7 @@ define('santuary-computer/pods/careers/product-manager/template', ['exports'], f
     
 
 
-    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">Product Manager</h3><hr /><h4 class=\"brown-light\">We're looking for people who have the skills to glue our Strategy, Design and Development teams together to create a cohesive product.</h4><br /><h3 class=\"brown-regular\">Skills</h3><h4 class=\"brown-light\">- Wireframing</h4><h4 class=\"brown-light\">- Keen Eye for User Experience</h4><h4 class=\"brown-light\">- Knowledge of Jira is a Plus</h4><br /><h3 class=\"brown-regular\">Perks</h3><h4 class=\"brown-light\">- Competitive Salary</h4><h4 class=\"brown-light\">- Countless Excursions</h4><h4 class=\"brown-light\">- All the gear you need</h4><h4 class=\"brown-light\">- 80 / 20 Time</h4><h4 class=\"brown-light\">- No Vacation Limit</h4><h4 class=\"brown-light\">- Enforced Minimum Vacation</h4><br /><br /><br /><a href=\"mailto:hello@sanctuarycomputer.com\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Apply for this Job</h5></a>");
+    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">Product Manager</h3><hr /><h4 class=\"brown-light\">We're looking for people who have the skills to glue our Strategy, Design and Development teams together to create cohesive products.</h4><br /><h3 class=\"brown-regular\">Skills</h3><h4 class=\"brown-light\">- Wireframing</h4><h4 class=\"brown-light\">- Keen Eye for User Experience</h4><h4 class=\"brown-light\">- Knowledge of Jira is a Plus</h4><br /><h3 class=\"brown-regular\">Perks</h3><h4 class=\"brown-light\">- Competitive Salary</h4><h4 class=\"brown-light\">- Countless Excursions</h4><h4 class=\"brown-light\">- All the gear you need</h4><h4 class=\"brown-light\">- 80 / 20 Time</h4><h4 class=\"brown-light\">- No Vacation Limit</h4><h4 class=\"brown-light\">- Enforced Minimum Vacation</h4><br /><br /><br /><a href=\"mailto:hello@sanctuarycomputer.com\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Apply for this Job</h5></a>");
     
   });
 
@@ -963,7 +963,7 @@ define('santuary-computer/pods/work/calendar-camp/template', ['exports'], functi
     data.buffer.push(escapeExpression((helper = helpers.img || (depth0 && depth0.img),options={hash:{
       'src': ("./assets/images/work/display-calendarcamp.jpg")
     },hashTypes:{'src': "STRING"},hashContexts:{'src': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "img", options))));
-    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">Calendar Camp</h3><hr /><h4 class=\"brown-light\">Calendar Camp is a Social Media tool that focusses on the planning and collaboration stage.  It's main view is a Calendar that allows you to see an overview of the entire month, and all of the posts associated.  It also provides a hosting solution for posting right out of the box.</h4><br /><br /><br /><a href=\"http://www.calendarcamp.co\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Visit Calendar Camp</h5></a>");
+    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">Calendar Camp</h3><hr /><h4 class=\"brown-light\">Calendar Camp is a Social Media tool that focuses on the planning and collaboration stage.  Its main view is a Calendar that allows you to see an overview of the entire month, and all of the posts associated.  It also provides a hosting solution for posting right out of the box.</h4><br /><br /><br /><a href=\"http://www.calendarcamp.co\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Visit Calendar Camp</h5></a>");
     return buffer;
     
   });
@@ -983,7 +983,7 @@ define('santuary-computer/pods/work/face-design/template', ['exports'], function
     data.buffer.push(escapeExpression((helper = helpers.img || (depth0 && depth0.img),options={hash:{
       'src': ("./assets/images/work/display-face.jpg")
     },hashTypes:{'src': "STRING"},hashContexts:{'src': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "img", options))));
-    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">FACE Design & Fabrication</h3><hr /><h4 class=\"brown-light\">We built a site for FACE Design + Fabrication, a Brooklyn based Architecture and steel working company.  The site was designed by PlayLab, with the intention of giving FACE a place where they could put their architectural components on display.</h4><br /><br /><br /><a href=\"http://face.human-nyc.com\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Visit FACE Design & Fabrication</h5></a>");
+    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">FACE Design & Fabrication</h3><hr /><h4 class=\"brown-light\">We built a site for FACE Design + Fabrication, a Brooklyn based Architecture and steel working company.  The site was designed by PlayLab, with the intention of giving FACE a place where they could put their architectural components on display.</h4><br /><br /><br /><a href=\"http://www.facedesign.com\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Visit FACE Design & Fabrication</h5></a>");
     return buffer;
     
   });
@@ -1034,7 +1034,7 @@ define('santuary-computer/pods/work/mainframe-group/template', ['exports'], func
     data.buffer.push(escapeExpression((helper = helpers.img || (depth0 && depth0.img),options={hash:{
       'src': ("./assets/images/work/display-mainframe.jpg")
     },hashTypes:{'src': "STRING"},hashContexts:{'src': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "img", options))));
-    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">The Mainframe Group</h3><hr /><h4 class=\"brown-light\">We built a site for FACE Design + Fabrication, a Brooklyn based Architecture and steel working company.  The site was designed by PlayLab, with the intention of giving FACE a place where they could put their architectural components on display.</h4><br /><br /><br /><a href=\"http://www.mainframegroup.co\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Visit The Mainframe Group</h5></a>");
+    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">The Mainframe Group</h3><hr /><h4 class=\"brown-light\">The Mainframe Group is a brain trust of experts in music, immersive design, and biomedical science.  We worked closely with the team at Cantora to put together this beautiful mobile responsive site.</h4><br /><br /><br /><a href=\"http://www.mainframegroup.co\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Visit The Mainframe Group</h5></a>");
     return buffer;
     
   });
@@ -1130,7 +1130,7 @@ define('santuary-computer/pods/work/working-pair/template', ['exports'], functio
     data.buffer.push(escapeExpression((helper = helpers.img || (depth0 && depth0.img),options={hash:{
       'src': ("./assets/images/work/display-twp.jpg")
     },hashTypes:{'src': "STRING"},hashContexts:{'src': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "img", options))));
-    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">The Working Pair</h3><hr /><h4 class=\"brown-light\">We built a site for FACE Design + Fabrication, a Brooklyn based Architecture and steel working company.  The site was designed by PlayLab, with the intention of giving FACE a place where they could put their architectural components on display.</h4><br /><br /><br /><a href=\"http://www.theworkingpair.com\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Visit The Working Pair</h5></a>");
+    data.buffer.push("<hr /><h3 class=\"brown-regular text-center\">The Working Pair</h3><hr /><h4 class=\"brown-light\">The Working Pair is a site that showcases the stories of couples living and working in the creative industry.  The site is entirely mobile responsive.  All design and development was done in house.</h4><br /><br /><br /><a href=\"http://www.theworkingpair.com\" target=\"_blank\" class=\"button expand\"><h5 class=\"brown-regular ui-text\">Visit The Working Pair</h5></a>");
     return buffer;
     
   });
@@ -2082,7 +2082,7 @@ catch(err) {
 if (runningTests) {
   require("santuary-computer/tests/test-helper");
 } else {
-  require("santuary-computer/app")["default"].create({"name":"santuary-computer","version":"0.0.0.195eb7b2"});
+  require("santuary-computer/app")["default"].create({"name":"santuary-computer","version":"0.0.0.a4f03974"});
 }
 
 /* jshint ignore:end */
